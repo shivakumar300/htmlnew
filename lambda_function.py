@@ -1,7 +1,7 @@
 import logging
 import os
 import requests
-
+import time
 class CustomFormatter(logging.Formatter):
     """ Custom Formatter does these 2 things:
     1. Overrides 'funcName' with the value of 'func_name_override', if it exists.

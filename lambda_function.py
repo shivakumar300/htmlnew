@@ -1,6 +1,6 @@
 import logging
 import os
-
+import requests
 
 class CustomFormatter(logging.Formatter):
     """ Custom Formatter does these 2 things:
